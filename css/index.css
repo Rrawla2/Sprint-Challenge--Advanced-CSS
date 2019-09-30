@@ -171,7 +171,7 @@ p {
 }
 @media (max-width: 500px) {
   .nav {
-    background: lightgrey;
+    background: #F6F6F6;
   }
 }
 .nav h1 {
@@ -300,6 +300,15 @@ footer {
 .home .walk .walk-text .btn:hover {
   color: #22283A;
   background: #F6F6F6;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 98%;
+    justify-content: center;
+    margin: 1%;
+    padding: 2%;
+    height: 15vw;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
