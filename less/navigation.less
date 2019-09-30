@@ -1,17 +1,28 @@
 // Navigation code here
 .nav {
+    @media @phone {
+        background: lightgrey;
+    }
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
     h1 {
+        @media @phone {
+            font-size: 4.1em;
+        }
        font-size: 6em;
     }
 
     a {
+        @media @phone {
+            padding: 2%;
+
+        }
         text-decoration: none;
         padding: 1%;
         font-size: 2em;
+
     }
 }

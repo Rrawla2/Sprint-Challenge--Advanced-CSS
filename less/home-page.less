@@ -11,6 +11,12 @@
     p {
       padding:0 15px;
     }
+    @media @phone {
+      img {
+        width: 99%;
+        border-radius: 5px;
+      }
+    }
   
   }
 
@@ -24,6 +30,22 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        width: 99%;
+      }
+    }
+
+    .sky {
+      @media @phone {
+         display: none;
+      }
+    }
+
+    .launch {
+      @media @phone {
+        display: none;
+      }
     }
   }
 
