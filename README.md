@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+***An adaptive website accommodates different devices at specific breakpoints in design and uses pixels that are hard coded for layout for different devices. A full responsive website will combine features of all different types of websites to create a seamless experience on every device or screen size.***
+
 2. Describe what it means to be mobile first vs desktop first.
+
+***Mobile first means you design and create your website to use mobile size as the default layout then adapt it to other screen sizes using media queries to account for the extra screen space. Desktop first means you design and create your website to use a desktop screen as the default layout then adapt it to use other screen sizes using media queries to account for less screen space.***
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+***62.5% is the base value that should be used so that 1 rem unit is equal to 10 pixels.***
+
 4. How would you describe preprocessing to someone new to CSS?
 
+***Preprocessing involves using a compiler to interpret simplified code that you write and compile a CSS file for you, making it easier to design and style and nest your elements. It involves using variables, mixins and parametric mixins.  Variables make the code easier to maintain when changing values.***
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+***My favorite concept in preprocessing is the variables.  I am a fan of only changing a value once instead of having to track down every hard coded value.  The concept that I still struggle with is the nesting and where they should go with the container they are enclosed in.***
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
