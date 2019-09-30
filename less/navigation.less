@@ -23,6 +23,23 @@
         text-decoration: none;
         padding: 1%;
         font-size: 2em;
+        margin-bottom: 5px;
+
+        &:hover {
+            animation: pulse 5s infinite;
+            border-radius: 10px;
+            color: @wild-sand;
+        }
+
+        @keyframes pulse {
+            0% {
+                background-color: @river-bend;
+            }
+            100% {
+                background-color: @wild-sand;
+                color: @river-bend;
+            }
+        }
 
     }
 }

@@ -186,10 +186,25 @@ p {
   text-decoration: none;
   padding: 1%;
   font-size: 2em;
+  margin-bottom: 5px;
 }
 @media (max-width: 500px) {
   .nav a {
     padding: 2%;
+  }
+}
+.nav a:hover {
+  animation: pulse 5s infinite;
+  border-radius: 10px;
+  color: #F6F6F6;
+}
+@keyframes pulse {
+  0% {
+    background-color: #454A59;
+  }
+  100% {
+    background-color: #F6F6F6;
+    color: #454A59;
   }
 }
 footer {
