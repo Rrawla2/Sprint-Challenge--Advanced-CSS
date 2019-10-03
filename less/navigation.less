@@ -1,1 +1,45 @@
 // Navigation code here
+.nav {
+    @media @phone {
+        background: @wild-sand;
+    }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h1 {
+        @media @phone {
+            font-size: 4.1em;
+        }
+       font-size: 6em;
+    }
+
+    a {
+        @media @phone {
+            padding: 2%;
+
+        }
+        text-decoration: none;
+        padding: 1%;
+        font-size: 2em;
+        margin-bottom: 5px;
+
+        &:hover {
+            animation: pulse 5s infinite;
+            border-radius: 10px;
+            color: @wild-sand;
+        }
+
+        @keyframes pulse {
+            0% {
+                background-color: @river-bend;
+            }
+            100% {
+                background-color: @wild-sand;
+                color: @river-bend;
+            }
+        }
+
+    }
+}

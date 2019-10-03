@@ -1,1 +1,23 @@
 // Mixins Here
+
+// button Mixin
+.btn (@background, @color) {
+    color: @wild-sand;
+    background: @btn-bg-color;
+    border-radius: @button-radius;
+    height: @button-height;
+    font-size: 2.5em;
+    text-align: center;
+    width: @btn-width;
+}
+
+.hover() {
+    &:hover {
+        color: @btn-bg-color;
+        background: @wild-sand;
+    }
+}
+
+.shadow {
+    box-shadow+: inset 0 0 10px #555;
+}
